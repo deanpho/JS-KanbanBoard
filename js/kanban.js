@@ -40,8 +40,9 @@ const create_item = () => {
       error.innerHTML = message;
     }
   });
-    item.appendchild(save_btn);
-    return item;
+  item.appendchild(save_btn);
+
+  return item;
   };
 
 document.querySelectorAll('.drop').forEach(element => {
