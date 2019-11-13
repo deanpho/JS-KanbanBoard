@@ -37,10 +37,11 @@ const create_item = () => {
       item.innerHTML = input.value;
       adding = false;
     } else {
-      error.innerHTML = ('message', ());
+      error.innerHTML = message;
     }
-
   })
+  save_btn.appendchild.item
+  return item
   };
 
 document.querySelectorAll('.drop').forEach(element => {
