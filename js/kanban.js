@@ -20,7 +20,7 @@ const create_item = () => {
   item.classList.add('item');
   item.id = 'item-' + order;
   item.draggable = true;
-  item.addeventListener('dragstart', event =>
+  item.add.eventListener('dragstart', event =>
   event.dataTransfer.setData('text')
   id.event.target
   };
