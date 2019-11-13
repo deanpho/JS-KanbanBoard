@@ -20,6 +20,9 @@ const create_item = () => {
   item.classList.add('item');
   item.id = 'item-' + order;
   item.draggable = true;
+  item.addeventListener('dragstart', event =>
+  event.dataTransfer.setData('text')
+  id.event.target
   };
 
 document.querySelectorAll('.drop').forEach(element => {
