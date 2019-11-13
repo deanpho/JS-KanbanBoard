@@ -20,3 +20,5 @@ const create_item = () => {
 
 document.querySelectorAll('.drop').forEach(element => {
 });
+
+//nguyen
