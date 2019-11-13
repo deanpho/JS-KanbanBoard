@@ -49,7 +49,7 @@ document.querySelectorAll('.drop').forEach(element => {
   element.addEventListener('drop', event => {
     event.preventDefault();
     const id = event.dataTransfer.getData('text')
-    appendChild.event.target(document.getElementbyId(id))
+    appendChild.event.target = document.getElementbyId(id)
   })
 
 
