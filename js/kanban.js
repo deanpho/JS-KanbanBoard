@@ -39,9 +39,9 @@ const create_item = () => {
     } else {
       error.innerHTML = message;
     }
-  })
-  save_btn.appendchild.item
-  return item
+  });
+    item.appendchild('save_btn');
+    return item;
   };
 
 document.querySelectorAll('.drop').forEach(element => {
